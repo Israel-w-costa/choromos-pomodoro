@@ -2,8 +2,8 @@ import "./styles/theme.css"
 import "./styles/global.css"
 
 import { Container } from "./Components/Container"
-import { Heading } from "./Components/Heading"
 import { Logo } from "./Components/Logo"
+import { Menu } from "./Components/Menu"
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
     <Logo/>
   </Container>
   <Container >
-    <Heading>Menu</Heading>
+    <Menu/>
   </Container>
     </>
   )
