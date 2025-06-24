@@ -10,6 +10,7 @@ import { Cycles } from "./Components/Cycles"
 import { Button } from "./Components/Button"
 
 import { PlayCircleIcon, StopCircleIcon} from "lucide-react"
+import { Footer } from "./Components/Footer"
 
 function App() {
 
@@ -39,10 +40,12 @@ function App() {
          <Cycles/>
         </div>
         <div className="formRow">
-           <Button icon={<PlayCircleIcon />} color='green' />
-            <Button icon={<StopCircleIcon />} color='red' />
+           <Button icon={<PlayCircleIcon />}  />
         </div>
       </form>
+      <Container >
+        <Footer/>
+      </Container>
     </>
   )
 }
